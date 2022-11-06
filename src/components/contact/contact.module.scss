@@ -1,0 +1,73 @@
+.body_contact {
+    width: 100%;
+    height: 60vh;
+    margin-top: 50vh;
+    position: relative;
+    background-color: #0a192f;
+    padding: 30vh;
+    justify-content: center;
+    border: none;
+}
+h1{
+    text-align: start;
+    margin: 10vh;
+}
+
+.contact_container{
+    width: 70vh;
+    height: 40vh;
+    text-align: center;
+    margin: auto;
+}
+.next{
+    margin-right: 10vh;
+    font-size: 24px;
+    font-weight: 300;
+    color: aquamarine;
+    text-align: center;
+}
+
+.text_end{
+    line-height: 30px;
+    position: relative;
+    text-align: center;
+    font-size: larger;
+    color: #d4d4d4;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.say_hello{
+    width: 20vh;
+    height: 8vh;
+    border: solid 2px #20cc4b;
+    border-radius: 5px;
+}
+
+@media only screen and (max-width: 600px) {
+
+.body_contact{
+    position: relative;
+   margin-top: 70vh;
+    padding: 0%;
+}
+
+
+h4{
+    text-align: center;
+}
+.next{
+    margin-left: 10px;
+}
+.contact_container{
+   
+
+   text-align: center;
+   width:auto; 
+}
+.middle_text{
+    font-size:26px;
+    padding: 10px;
+}
+
+
+}

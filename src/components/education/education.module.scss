@@ -1,0 +1,138 @@
+.body_education{
+    width: 100%;
+    background-color: #0a192f;
+    padding: 30vh;
+}
+
+.container{
+    margin-top: 20vh;
+    width: 100%;
+    height: 50vh;
+    display: flex;
+}
+.photo{
+    align-items: center;
+    width: 90vh;
+    height: 50vh;
+    background-size: cover;
+    z-index: 1;
+    background-image: url("https://code.visualstudio.com/assets/docs/nodejs/nodejs/runtimes_node.png");
+}
+.inform{
+    width: 100%;
+    z-index: 2;
+}
+h1{
+    color: aliceblue;
+    text-align: center;
+}
+.info{
+    font-size: large;
+    color: rgb(127, 255, 142);
+    text-align: right;
+    padding-left: 10vh;
+    float: right;
+}
+h3{
+    font-size: 30px;
+    color: aliceblue;
+    padding-left: 10vh;
+}
+.snack{
+    color: aliceblue;
+    margin-top: 30vh;
+    margin-left: 10vh;
+}
+.textured{
+    width: 70vh;
+    padding: 10px;
+    
+    height: 10vh;
+    border-radius: 5px;
+    background-color: #122848;
+    color: aliceblue;
+    
+    z-index: 3;
+    margin-top: 20vh;
+    margin-left: 70vh;
+    position: absolute;
+
+}
+
+
+@media only screen and (max-width: 600px) {
+    .body_education{
+        padding: 0%;
+        padding-bottom: 20vh;
+    }
+.container{
+    display: block;
+    margin-top: 50vh;
+    
+}
+.photo {
+    position: absolute;
+        align-items: center;
+        width: 40vh;
+        height: 50vh;
+        margin: auto;
+        background-size: cover;
+        z-index: 1;
+        background-color: rgba(18, 40, 72 , 0.5);
+        opacity: 0.5;
+        background-image: url("https://code.visualstudio.com/assets/docs/nodejs/nodejs/runtimes_node.png");
+    }
+
+    .inform {
+        width: 100%;
+        z-index: 2;
+    }
+
+    h1 {
+        color: aliceblue;
+        text-align: center;
+        z-index: 2;
+    }
+
+    h4 {
+        font-size: large;
+        color: rgb(42, 182, 42);
+        text-align: right;
+        padding-left: 10vh;
+        float: right;
+        z-index: 3;
+        display: none;
+    }
+
+    h3 {
+        font-size: 30px;
+        color: aliceblue;
+        padding-left: 10vh;
+    }
+
+    .snack {
+        color: aliceblue;
+        margin-top: 40vh;
+        margin-left: 10vh;
+        z-index: 3;
+    }
+
+    .textured {
+        width: 30vh;
+        padding: 10px;
+
+        height: 20vh;
+        line-height: normal;
+        text-align: center;
+        border-radius: 5px;
+        background-color: #122848;
+        color: aliceblue;
+
+        z-index: 3;
+        margin-top: 20vh;
+        margin-left: 10vh;
+        position: absolute;
+
+    }
+
+}
