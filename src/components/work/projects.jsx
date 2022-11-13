@@ -7,10 +7,10 @@ function Projects(props) {
     // navigate("mailto")
   }
   return (
-    <>
-      <a href={`${props.url}`}>
+    < div data-aos="flip-up" >
+      <a href={`${props.url}`} >
 
-      <div key={props.id} className={cls.card} onClick={() => getUrl}>
+      <div key={props.id} className={cls.card} onClick={() => getUrl} >
         <img src={props.img} alt="404" />
 
         <h2 className={cls.name}>{props.name}</h2>
@@ -21,7 +21,7 @@ function Projects(props) {
         <p className={cls.stack}>{props.stack}</p>
       </div>
       </a>
-    </>
+    </div>
   )
 }
 

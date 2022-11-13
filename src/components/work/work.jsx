@@ -2,7 +2,6 @@ import React from 'react'
 import Projects from './projects'
 import cls from "./work.module.scss"
 import {project} from './component' 
-console.log(project)
 function Work() {
   return (
     <div className={cls.body_works}>

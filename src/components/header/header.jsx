@@ -19,20 +19,22 @@ function Header() {
           <div className={ cls.tab}></div>
           <div className={cls.header_nav}>
 
-          <ul>
-            <li>About</li>
-            <li>Education</li>
-            <li>Work</li>
-            <li>Contact</li>
+            <ul > 
+              <li data-aos="fade-down">
+                About</li>
+              <li data-aos="fade-down">
+                Education</li>
+              <li data-aos="fade-down">
+                Work</li>
+              <li data-aos="fade-down">
+                Contact</li>
           </ul>
           </div>
-          {/* <Link className={cls.resume} to="" target="_blank" download>Resume</Link> */}
-          {/* <a href="" download>
-
-        <button className={cls.resume}>Resume</button>
-          </a> */}
+         
           <a class="tools_button_download" href="https://fv9-4.failiem.lv/down.php?i=q3j8w24km&amp;n=IbroximovJamshidResume.pdf" download >
-            <button className={cls.resume}>Resume</button>
+            <button className={cls.resume}
+              data-aos="fade-down"
+            >Resume</button>
           </a>
         </div>
       </nav>

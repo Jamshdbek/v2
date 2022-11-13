@@ -31,6 +31,7 @@ h1{
     color: rgb(127, 255, 142);
     text-align: right;
     padding-left: 10vh;
+    margin-top: 40px;
     float: right;
 }
 h3{
@@ -72,20 +73,23 @@ h3{
 }
 .photo {
     position: absolute;
-        align-items: center;
-        width: 40vh;
+    margin-left: 10vh;
+        width: 35vh;
         height: 50vh;
-        margin: auto;
         background-size: cover;
         z-index: 1;
         background-color: rgba(18, 40, 72 , 0.5);
         opacity: 0.5;
+        margin: auto;
+        margin-left: 5vh;
         background-image: url("https://code.visualstudio.com/assets/docs/nodejs/nodejs/runtimes_node.png");
     }
 
     .inform {
         width: 100%;
         z-index: 2;
+        position: absolute;
+        margin-bottom:10vh ;
     }
 
     h1 {
@@ -111,16 +115,19 @@ h3{
     }
 
     .snack {
+        
         color: aliceblue;
         margin-top: 40vh;
+        line-height: 20px;
         margin-left: 10vh;
-        z-index: 3;
+        // z-index: 5;
+        display: none;
     }
 
     .textured {
         width: 30vh;
         padding: 10px;
-
+position: absolute;
         height: 20vh;
         line-height: normal;
         text-align: center;
