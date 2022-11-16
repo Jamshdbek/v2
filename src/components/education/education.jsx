@@ -13,7 +13,7 @@ function Education() {
         data-aos="fade-left"
        >
         <a href="https://github.com/UmarAdkham/behance/tree/master/server">
-          <div className={cls.photo}>
+          <div className={cls.photo} data-aos="fade-left">
           </div>
         </a>
           <p className={cls.snack}>Node.js Express.js MongoDB mongoose</p>
