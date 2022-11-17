@@ -14,7 +14,7 @@ function About() {
            
             <br />
             <br />
-            Here are a few technologies I’ve been working with recently:
+            Here are a few technologies I've been working with recently:
 
             <table id="myTable">
               <tr>

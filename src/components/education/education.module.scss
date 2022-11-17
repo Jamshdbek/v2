@@ -20,58 +20,98 @@
 }
 .inform{
     width: 100%;
-    z-index: 2;
 }
-h1{
-    color: aliceblue;
-    text-align: center;
-}
+
 .info{
     font-size: large;
     color: rgb(127, 255, 142);
     text-align: right;
-    padding-left: 10vh;
-    margin-top: 40px;
-    float: right;
+   
 }
-h3{
-    font-size: 30px;
-    color: aliceblue;
-    padding-left: 10vh;
+
+.textured{
+    width: 50vh;
+    margin-left: 75vh;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 20vh;
+    background-color:#122848;
+    position: absolute;
+    z-index: 3;
+
 }
+
 .snack{
-    color: aliceblue;
     margin-top: 30vh;
     margin-left: 10vh;
+    color: #8892b0;
 }
-.textured{
-    width: 70vh;
+.one_text{
+    // margin-left: 10vh;
+    text-align: right;
+    color: #ccd6f6;
+}
+// work tow
+.work_two{
+    margin-top: 20vh;
+        width: 100%;
+        height: 50vh;
+        display: flex;
+}
+.two_work_info{
+    width: 100%;
+}
+.img_two{
+align-items: center;
+    width: 90vh;
+    height: 50vh;
+    background-size: cover;
+    z-index: 1;
+    background-image: url("https://iili.io/H9Ef02n.jpg");
+}
+.smile_text{
+    color: aquamarine;
+}
+.snack_info{
+   margin-top: 20vh;
+   position: relative;
+   color: #8892b0;
+   font-weight: 400;
+
+}
+.two_text{
+    font-size: 26px;
+    font-weight: 500;
+    color: #ccd6f6;
+}
+.text_inform{
+    width: 60vh;
     padding: 10px;
-    
-    height: 10vh;
     border-radius: 5px;
     background-color: #122848;
-    color: aliceblue;
-    
-    z-index: 3;
-    margin-top: 20vh;
-    margin-left: 70vh;
+        color: aliceblue;
     position: absolute;
-
+  margin-left: 20vh;
+        z-index: 3;
 }
-
 
 @media only screen and (max-width: 600px) {
     .body_education{
-        padding: 0%;
         padding-bottom: 20vh;
+        padding: 20px;
     }
 .container{
     display: block;
+    height: 60vh;
     margin-top: 50vh;
+    background-size: cover;
+    justify-content: center;
+    background-image: url("https://code.visualstudio.com/assets/docs/nodejs/nodejs/runtimes_node.png");
     
 }
+
 .photo {
+    display: none;
     position: absolute;
     margin-left: 10vh;
         width: 35vh;
@@ -82,7 +122,6 @@ h3{
         opacity: 0.5;
         margin: auto;
         margin-left: 5vh;
-        background-image: url("https://code.visualstudio.com/assets/docs/nodejs/nodejs/runtimes_node.png");
     }
 
     .inform {
@@ -141,5 +180,27 @@ position: absolute;
         position: absolute;
 
     }
+    // second work
+    .two_work_info{
+        justify-content: center;
+        .text_inform{
+       margin: auto;
+            width: 30vh;
+
+        }
+        background-image: url("https://iili.io/H9Ef02n.jpg");
+    }
+   .img_two{
+    position: absolute;
+        width: 35vh;
+        display: none;
+        height: 50vh;
+        background-size: cover;
+        z-index: 1;
+        background-color: rgba(18, 40, 72, 0.5);
+        opacity: 0.5;
+        margin: auto;
+        
+   }
 
 }
